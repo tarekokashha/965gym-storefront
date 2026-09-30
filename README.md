@@ -1,14 +1,14 @@
 # 965gym storefront
 
-**Sports equipment shopping for Kuwait, presented in Arabic.**
+**An Arabic-first sports equipment storefront for Kuwait, built by Tarek Okasha.**
 
 [Live site](https://965gym.com/) · [Portfolio](https://tarek-portfolio-phi.vercel.app/#brands)
 
 ## The project
 
-965gym brings fitness equipment and training essentials into one storefront. The public site covers home gym and strength equipment, cardio, martial arts, and smaller accessories. Its Arabic shopping journey includes product discovery, category browsing, and a cart.
+I built 965gym as a storefront for fitness equipment and training essentials in Kuwait. The public site covers home gym and strength equipment, cardio, martial arts, and smaller accessories. Its Arabic shopping journey includes product discovery, category browsing, and a cart.
 
-## What this case study shows
+## What I built
 
 - A broad catalog organized around how customers shop for training equipment.
 - Arabic-first presentation for the Kuwait market.
@@ -21,9 +21,8 @@ This repository documents the public-facing project. The original site source an
 
 ## العربية
 
-965gym متجر كويتي للأجهزة والمستلزمات الرياضية. توضح دراسة الحالة تنظيم الفئات وتجربة التسوق العربية الظاهرة في الموقع العام. لا يحتوي هذا المستودع على شيفرة الموقع أو بيانات العملاء أو إعدادات التشغيل.
+صممت وطورت 965gym، وهو متجر كويتي للأجهزة والمستلزمات الرياضية. أوثق هنا تنظيم الفئات وتجربة التسوق العربية الظاهرة في الموقع العام. لا يحتوي هذا المستودع على شيفرة الموقع أو بيانات العملاء أو إعدادات التشغيل.
 
 ## Rights
 
 This case-study text is copyright 2026 Tarek Okasha. The 965gym name, visual identity, product images, catalog data, and live-site content remain with their respective rights holders. See [LICENSE.md](LICENSE.md).
-

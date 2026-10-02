@@ -1,28 +1,78 @@
-# 965gym storefront
+<div align="center">
 
-**An Arabic-first sports equipment storefront for Kuwait, built by Tarek Okasha.**
+<img src="docs/img/social-preview.png" alt="965gym: a bilingual sports and fitness storefront on WooCommerce" width="100%">
 
-[Live site](https://965gym.com/) · [Portfolio](https://tarek-portfolio-phi.vercel.app/#brands)
+# 965gym
+
+**A bilingual sports and fitness storefront for Kuwait, on WooCommerce.**<br>
+Built and documented by [Tarek Okasha](https://github.com/tarekokashha).
+
+[![CI](https://github.com/tarekokashha/965gym-storefront/actions/workflows/ci.yml/badge.svg)](https://github.com/tarekokashha/965gym-storefront/actions/workflows/ci.yml)
+[![Docs: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+![WooCommerce](https://img.shields.io/badge/WooCommerce-Woodmart-7f54b3.svg)
+![RTL first](https://img.shields.io/badge/RTL-first-d9b88a.svg)
+
+[**Live store**](https://965gym.com) · [العربية](README.ar.md) · [Documentation](docs/) · [Portfolio](https://tarek-portfolio-phi.vercel.app)
+
+</div>
+
+---
+
+![The live 965gym homepage](docs/img/live-home-desktop.png)
+
+<sub>The live store at [965gym.com](https://965gym.com), captured on 2 October 2026.</sub>
 
 ## The project
 
-I built 965gym as a storefront for fitness equipment and training essentials in Kuwait. The public site covers home gym and strength equipment, cardio, martial arts, and smaller accessories. Its Arabic shopping journey includes product discovery, category browsing, and a cart.
+965gym is a specialist store for sports and fitness equipment in Kuwait: treadmills and cardio machines, strength machines, weights and home-gym supplies, and boxing and martial-arts gear, with delivery and installation inside Kuwait, and a gym design and fit-out service with a certified warranty. I built the storefront. It is one of three stores in the 965 collection, alongside [965toys](https://github.com/tarekokashha/965toys-storefront) and [965play](https://github.com/tarekokashha/965play-storefront).
+
+This repository documents the store and how it is organised. The store's own code is part of a production site and is not published here.
+
+## At a glance
+
+| | |
+|---|---|
+| **Role** | Storefront build: [Tarek Okasha](https://github.com/tarekokashha) |
+| **Live** | [965gym.com](https://965gym.com) |
+| **Stack** | WordPress, WooCommerce, the Woodmart theme with a child theme, TranslatePress, Elementor, Google Site Kit |
+| **Languages** | Arabic by default (right to left), English under `/en/` |
+| **Catalogue** | Organised by discipline first (boxing, Muay Thai, MMA, karate, Kyokushin, Kung Fu, judo, jiu-jitsu, Kajukenbo), then gym and fitness equipment and sports accessories |
+| **Account** | Registration, lost-password recovery, Google sign-in, wishlist |
 
 ## What I built
 
-- A broad catalog organized around how customers shop for training equipment.
-- Arabic-first presentation for the Kuwait market.
-- Product pages and a shopping flow built around equipment with different use cases and price points.
-- A distinct storefront within the wider 965 group shown in the portfolio.
+### A catalogue organised the way its customers think
+Customers in this market shop by **discipline**. A boxer, a Muay Thai fighter and a Kung Fu student each expect to land on their own equipment, so the homepage leads with discipline tiles, and the category tree runs from discipline to equipment. Gym and fitness, sports accessories, bags, brands and sale sit alongside. → [The storefront](docs/storefront.md)
 
-## Repository contents
+### Arabic first, English alongside
+A right-to-left storefront in Arabic, with the whole catalogue available in English under `/en/`, through TranslatePress.
 
-This repository documents the public-facing project. The original site source and production configuration were not available in the reviewed local files, so no site code is included here. The live store remains the source of truth for its current catalog and customer experience.
+### Its own identity inside a shared system
+A deep navy and gold palette and a dark, product-led photographic style give 965gym its own look, while it shares the Arabic-first WooCommerce and Woodmart approach of the other two 965 stores.
 
-## العربية
+## Screens
 
-صممت وطورت 965gym، وهو متجر كويتي للأجهزة والمستلزمات الرياضية. أوثق هنا تنظيم الفئات وتجربة التسوق العربية الظاهرة في الموقع العام. لا يحتوي هذا المستودع على شيفرة الموقع أو بيانات العملاء أو إعدادات التشغيل.
+| Desktop | Mobile |
+|---|---|
+| ![Desktop home](docs/img/live-home-desktop.png) | ![Mobile home](docs/img/live-home-mobile.png) |
 
-## Rights
+## Documentation
 
-This case-study text is copyright 2026 Tarek Okasha. The 965gym name, visual identity, product images, catalog data, and live-site content remain with their respective rights holders. See [LICENSE.md](LICENSE.md).
+| | |
+|---|---|
+| [The storefront](docs/storefront.md) | The stack and the catalogue structure |
+
+## What is not in this repository
+
+The store's theme customisation, plugin code, catalogue data, customer data and credentials. They belong to a live business, so this repository documents the work instead of shipping it.
+
+## License and credit
+
+- **Documentation** is [CC BY 4.0](LICENSE). Reuse must credit **Tarek Okasha** and link to this repository.
+- 965gym's name, logo and imagery, and the sports-equipment brand names in the screenshots, are **not** licensed here. See [NOTICE](NOTICE.md).
+
+Copyright (c) 2026 Tarek Okasha.
+
+## About the author
+
+I am **Tarek Okasha**, a robotics and automation engineer in Cairo who builds systems that run without supervision: six-axis robots, AI automations, and the custom software and brand presences that companies actually operate on. More of my work is in my [portfolio](https://tarek-portfolio-phi.vercel.app) and on [GitHub](https://github.com/tarekokashha).

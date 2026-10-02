@@ -1,0 +1,23 @@
+{
+  "name": "965gym-storefront",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Case study of the 965gym sports and fitness storefront for Kuwait: bilingual WooCommerce with a deep martial-arts and gym catalogue. By Tarek Okasha.",
+  "license": "CC-BY-4.0",
+  "author": "Tarek Okasha",
+  "homepage": "https://github.com/tarekokashha/965gym-storefront",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarekokashha/965gym-storefront.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tarekokashha/965gym-storefront/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node scripts/check-repo.mjs"
+  }
+}
